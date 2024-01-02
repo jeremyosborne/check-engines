@@ -43,6 +43,7 @@ try {
 } catch (error) {
     console.error("check-engines failure, error:");
     console.error(error);
+    process.exit(1);
 }
 
 // Exit quietly, everything passes.
