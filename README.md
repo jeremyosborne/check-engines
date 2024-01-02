@@ -1,13 +1,13 @@
-# Check engines
+# lint-nvmrc-with-engines
 
-Test that your the `engines` field of your `package.json` file matches what is found in your `.nvmrc`.
+Test that the contents of `.nvmrc` satisfies the `engines.node` field found in your `package.json`.
 
 ## Usage
 
 From the root of your application:
 
-`npx check-engines`
+`npx lint-nvmrc-with-engines`
 
-Move on with life if things pass, fix the problem if they fail.
+Move on with life if this passes, fix the problem if this fails.
 
 Meant to be used during an automated test process.
