@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 //
 // Run this script from the root of your application directory.
 // It's purposely quiet unless something is wrong.
