@@ -1,0 +1,26 @@
+{
+    "name": "check-engines",
+    "version": "0.1.0",
+    "description": "enforce engine equality between package.json and .nvmrc",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo 'there is no test, there is only zuul'"
+    },
+    "keywords": [
+        "lint",
+        "nvmrc"
+    ],
+    "bin": "./index.js",
+    "author": "Jeremy Osborne <jeremywosborne@gmail.com>",
+    "license": "ISC",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jeremyosborne/check-engines.git"
+    },
+    "dependencies": {
+        "semver": "^7.5.4"
+    },
+    "devDependencies": {
+        "prettier": "^3.1.1"
+    }
+}
