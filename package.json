@@ -1,6 +1,6 @@
 {
     "name": "lint-nvmrc-with-engines",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "enforce engine equality between package.json and .nvmrc",
     "main": "index.js",
     "scripts": {
